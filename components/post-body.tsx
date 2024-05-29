@@ -4,7 +4,7 @@ type Props = {
   content: string;
 };
 
-export function PostBody({ content }: Props) {
+const PostBody = ({ content }: Props) => {
   return (
     <div className="max-w-2xl mx-auto">
       <div
@@ -13,4 +13,6 @@ export function PostBody({ content }: Props) {
       />
     </div>
   );
-}
+};
+
+export default PostBody;
